@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgba(165, 231, 233, 0.733);
+}
+h1 {
+  font:italic bolder 1.7em "times new roman", times,serif;
+  color: rgb(3, 40, 253);
+}
+h1#principal {
+  display: inline-block;
+  text-align:center;
+  background-color: azure;
+  color: blue;
+  height: 30px;
+  width: 400px;
+}
+h2 { 
+  font:oblique bold 1.4em 'Times New Roman', Times, serif;
+}
+p {
+  font:normal 16px  Verdana,arial,sans-serif;
+}
+.basico {
+  color: rgb(30, 255, 0);
+  background-color: white;
+}
+.medio {
+  color: yellow;
+  background-color: white;
+}
+.avançado {
+  color: green;
+  background-color: white;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontes de CSS</title>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+  @font-face {
+    font-family:"bouncy gum";
+    src: url("BOUNCY\ GUM.otf") format("opentype"), url(BOUNCY\ GUM.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    /*
+    Tipos de format()
+    -opentype
+    -truetype
+    -onbeddad-opentype
+    -truetype-aat
+    -svg
+    */
+  }
+    body {
+      font-family:'Roboto Condensed', sans-serif;;
+      /* 
+      Medidas Absolutas
+      cm,mm,in,(px),pt,pc
+
+      Medidas Relativas
+      (em),ex,rem,vw,vh,%
+      16px geralmente= 1em
+      */
+      font-size: 16px;
+      /*
+      weight=peso
+      width=largura
+      height=altura
+      */
+    }
+    h1{
+      font-family:"bouncy gum";
+      font-weight: normal;
+      font-size: 4em;
+      font-style:normal;
+      text-align:center;
+    }
+    h2 {
+      font: italic bold 2em kaushan script, cur sive;
+      text-align: right;
+      /*->shorthand<-
+      font-style,font-weight,font-size,font-family 
+      */
+    }
+    p {
+      text-indent:30px ;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <h1>Trabalho com fontes</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla voluptate dolor aspernatur voluptas non dicta adipisci cum commodi ipsam omnis ad, voluptatibus fugit, animi rerum repellendus corporis quos aut ullam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat obcaecati ullam at impedit deleniti suscipit dolores nulla! Quasi, dignissimos aspernatur repellat alias vel delectus quibusdam dolor, quod incidunt exercitationem facilis!</p>
+  <h2>Subtitulo do Exercicio</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi soluta repudiandae quam veritatis ad esse, error eos dicta quo id laudantium laboriosam quae velit tempora maxime veniam ipsa mollitia ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corporis aliquam debitis, ipsam ab reprehenderit porro magnam itaque alias odit cum reiciendis atque! Corporis hic officiis nihil ad inventore eaque.</p>
+</body>
+</html>

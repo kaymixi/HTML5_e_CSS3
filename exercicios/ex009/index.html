@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mídias em HTML5</title>
+</head>
+<body>
+  <h1>Imagens Dinâmicas</h1>
+  <p>
+    Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.
+  </p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/img-m.png" type="image/png">
+    <img src="imagens/img-g.png" alt="Uma Imagem Flexivel">
+  </picture>
+  <h1>Reproduzindo audio</h1>
+  <p>Vamos aprender a reproduzir áudios em HTML5</p>
+  <audio src="audio/Manj Khammaj - Aditya Verma.mp3" controls>
+  </audio>
+  <audio preload="metadata" controls loop>
+    <source src="guanacast-33.ogg" type="audio/ogg">
+    <source src="audio/guanacast-33.mp3" type="audio/mpeg">
+    <p>esse audio nao pode ser carregado pelo seu navegador. Baixe-o por favor
+      <a href="audio/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">
+    </a>
+    </p>
+  </audio>
+  <h1>Inserido vídeos hospedados localmente</h1>
+  <p>Este vídeo está hospedado no meu próprio servidor.</p>
+  <video src="video/refeito.mp4" width="500" controls autoplay loop>
+  </video>
+  <video width="500" poster="imagens/limoes-capa.png" controls autoplay loop>
+    <source src="video/refeito.mp4" type="video/mp4">
+    <source src="video/refeito-webm.webm" type="video/webm">
+    <source src="video/refeito-mkv.mkv" type="video/mp4">
+  </video>
+  <h1>Inserindo Videos do youtube</h1>
+  <iframe width="500" height="315" src="https://www.youtube.com/embed/AjdMtLF0Z6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
