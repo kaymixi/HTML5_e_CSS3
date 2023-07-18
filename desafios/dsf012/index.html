@@ -61,12 +61,14 @@
     section.imagem {
       background-color: rgb(43, 42, 42);
       color: white;
+      box-shadow:inset 6px 6px 15px 0px rgba(0, 0, 0, 0.438);
+      background-size: cover;
+      background-attachment: fixed;
     }
     section.imagem > p {
       display: inline-block;
-      padding: 10px;
-      min-width: 230px;
-      text-shadow: 1px 1px black;
+      padding: 5px;
+      text-shadow: 2px 2px black;
       color: white;
     }
     section#img02 > p {
@@ -74,13 +76,11 @@
     }
     section#img01 {
       background-image: url('imagem/background001.jpg');
-      background-position: center center;
-      background-size: cover;
+      background-position: center right;
     }
     section#img02 {
       background-image: url('imagem/background002.jpg');
-      background-size: cover;
-      background-position: right bottom;
+      background-position: bottom right;
     }
     footer { 
       background-color: black ;
