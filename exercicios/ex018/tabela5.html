@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício de tabela</title>
+  <style>
+    body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    table {
+      width: 500px;
+      border-collapse: collapse;
+    }
+    caption {
+      font-size: 1.3px;
+      font-weight: bolder;
+      padding: 8px;
+    }
+    th,td {
+      border: 1px solid grey;
+      padding: 10px;
+    }
+    .cprofissao {
+      background-color: rgb(252, 252, 96);
+    }
+    .cgrupo {
+      background-color: rgb(106, 157, 253);
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <colgroup>
+      <col class="cnome">
+      <col class="cgrupo" span="2">
+      <col class="cprofissao">
+    </colgroup>
+    <caption>Cadastro</caption>
+    <tr>
+      <th scope="col">Nome</th>
+      <th scope="col">Sexo</th>
+      <th scope="col">Idade</th>
+      <th scope="col">Profissao</th>
+    </tr>
+    <tr>
+      <th>Mariana Vasquez</th>
+      <th>feminino</th>
+      <th>25 anos</th>
+      <th>Desenvolvedora front-end</th>
+    </tr>
+    <tr>
+      <th>Fernando Albuquerque</th>
+      <th>Masculino</th>
+      <th>24 anos</th>
+      <th>Contador</th>
+    </tr>
+    <tr>
+      <th>Dominique Vicente</th>
+      <th>feminino</th>
+      <th>20 anos</th>
+      <th>Estagiaria de engenharia Mecanica</th>
+    </tr>
+    <tr>
+      <th>Heitor Toledo</th>
+      <th>Masculino</th>
+      <th>29 anos</th>
+      <th>Professor de Anatomia</th>
+    </tr>
+    <tr>
+      <th>Miguel Veneri</th>
+      <th>Masculino</th>
+      <th>23 anos</th>
+      <th>Analista de QA</th>
+    </tr>
+    <tr>
+      <th>Aurora Dias</th>
+      <th>Feminino</th>
+      <th>21 anos</th>
+      <th>Social Midia</th>
+    </tr>
+  </table>
+</body>
+</html>
