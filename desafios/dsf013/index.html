@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto redes sociais</title>
+  <link rel="shortcut icon" href="/desafios/dsf013/pacote-d013/favicon.ico" type="image/x-icon">
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
+      background-color: black;
+    }
+    body {
+      background:url(../dsf013/pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    main {
+      position: relative;
+      height: 100vh;
+    }
+    #telefone{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+      height: 627px;
+      width: 311px;
+      background: url(../dsf013/pacote-d013/imagens/frame-iphone.png) no-repeat;
+    }
+    #tela {
+      position: relative;
+      top: 80px;
+      left: 22px;
+      width: 267px;
+      height: 471px;
+    }
+    #redessociais {
+      text-align: right;
+    }
+    #redessociais img {
+      width: 40px;
+      margin: 10px;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+      box-sizing: border-box;
+    }
+    section#redessociais img:hover {
+      border: 2px solid rgba(255, 255, 255, 0.568);
+      transform: translate(-3px, -3px);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+      transition: transform 0.4s border 0.5s;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section id="telefone">
+      <iframe src="home.html" name="tela" id="tela" frameborder="0"></iframe>
+    </section>
+    <section id="redessociais">
+      <a href="pacote-d013/imagens/tela-home.jpg" target="tela"><img src="pacote-d013/imagens/logo-home.jpg" alt="logo-home"></a><br>
+      <a href="github.html" target="tela"><img src="pacote-d013/imagens/logo-github.jpg" alt="logo-github"></a><br>
+      <a href="instagram.html" target="tela"><img src="pacote-d013/imagens/logo-instagram.jpg" alt="logo-instagram"></a><br>
+      <a href="facebook.html" target="tela"><img src="pacote-d013/imagens/logo-facebook.jpg" alt="logo-facebook"></a><br>
+      <a href="linkedln.html" target="tela"><img src="pacote-d013/imagens/download.png" alt="logo-linkedln"></a><br>
+    </section>
+  </main>
+</body>
+</html>
